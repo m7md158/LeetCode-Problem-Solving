@@ -51,3 +51,8 @@ class Solution:
     # time complexity O(n)
       # space complexity O(N)
 
+
+## 4 Hash Set Length
+class Solution:
+    def hasDuplicate(self, nums: List[int]) -> bool:
+        return len(set(nums)) < len(nums)
