@@ -19,3 +19,7 @@ class Solution:
         res1 , res2 = [], []
         
         return [list(hashSet1 - hashSet2),list(hashSet2 - hashSet1 )]
+
+
+# Time complexity:   o(n+m)
+# space complexity:  o(n+m)
